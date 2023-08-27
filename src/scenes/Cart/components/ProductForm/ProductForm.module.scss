@@ -1,0 +1,36 @@
+.container {
+  width: 379px;
+  max-width: 100%;
+  background-color: #F7F6F6;
+  border-radius: 20px;
+  padding: 42px 27px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 35px;
+}
+
+.input {
+  border: none;
+  border-bottom: solid 1px #CACDD8;
+  background: none;
+  padding: 3px 0;
+  margin-bottom: 41px;
+  width: 100%;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.button {
+  width: 100%;
+  font-size: 16px;
+}
+

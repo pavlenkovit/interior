@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+}
+
+.tableWrapper {
+  flex: 1 1 auto;
+  margin-right: 33px;
+  width: 1%;
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 64px;
+}
+
+.button {
+  margin-top: 20px;
+  &:not(:last-child) {
+    margin-right: 7px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    display: block;
+  }
+  .tableWrapper {
+    width: 100%;
+  }
+}

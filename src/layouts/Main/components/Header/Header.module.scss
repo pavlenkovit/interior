@@ -1,0 +1,27 @@
+.container {
+  background-color: #ccc;
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  &:not(:last-child) {
+    margin-right: 32px;
+  }
+}
