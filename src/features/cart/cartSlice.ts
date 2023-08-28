@@ -26,7 +26,7 @@ const initState = getStateFromLocalStorage();
 
 export const cartSlice = createSlice({
   name: 'cart',
-  initialState: (initState.cart || { products: [] }) as CartState,
+  initialState: (initState?.cart || { products: [] }) as CartState,
   reducers: {
     addProduct: (state: CartState, action: PayloadAction<Omit<Product, 'count'>>) => {
       const foundProduct = state.products.find(product => product.id === action.payload.id);

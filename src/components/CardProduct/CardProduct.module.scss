@@ -25,9 +25,6 @@
   border: none;
   padding: 0;
   cursor: pointer;
-  &:not(:last-child) {
-    margin-right: 21px;
-  }
   & path {
     transition: fill .2s ease-out;
   }
