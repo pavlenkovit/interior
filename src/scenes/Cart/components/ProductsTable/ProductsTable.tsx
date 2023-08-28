@@ -27,10 +27,7 @@ export const ProductsTable = () => {
                   <h2 className={styles.title}>{title}</h2>
                   <div className={styles.description}>{description}</div>
                   <div className={styles.price}>{separateThousands(price)} руб.</div>
-                  <div className={styles.buttons}>
-                    <a className={styles.link} href="#" onClick={e => e.preventDefault()}>
-                      Избранные
-                    </a>
+                  <div>
                     <a
                       className={styles.link}
                       href="#"
