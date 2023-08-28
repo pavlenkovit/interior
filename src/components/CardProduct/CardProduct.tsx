@@ -20,7 +20,7 @@ export const CardProduct: FC<CardProductProps> = product => {
   return (
     <div className={styles.container}>
       <div className={styles.imageWrapper}>
-        <img className={styles.image} src={`${image}`} />
+        <img className={styles.image} src={`${process.env.PUBLIC_URL}/${image}`} alt={title} />
         <div className={styles.actions}>
           <button
             className={styles.button}

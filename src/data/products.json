@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "image": "/products/tatran.jpg",
+    "image": "products/tatran.jpg",
     "title": "Кровать TATRAN",
     "description": "Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.",
     "price": 120000
   },
   {
     "id": 2,
-    "image": "/products/vilora.jpg",
+    "image": "products/vilora.jpg",
     "title": "Кресло VILORA",
     "description": "Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань. ",
     "price": 21000
   },
   {
     "id": 3,
-    "image": "/products/menu.jpg",
+    "image": "products/menu.jpg",
     "title": "Стол MENU",
     "description": "Европейский дуб - отличается особой прочностью и стабильностью.",
     "price": 34000
   },
   {
     "id": 4,
-    "image": "/products/askesta.jpg",
+    "image": "products/askesta.jpg",
     "title": "Диван ASKESTA",
     "description": "Благодаря защелкивающемуся механизму диван легко раскладывается в комфортную кровать",
     "price": 68000
   },
   {
     "id": 5,
-    "image": "/products/lunar.jpg",
+    "image": "products/lunar.jpg",
     "title": "Кресло LUNAR",
     "description": "Прекрасно переносит солнечные лучи, перепады влажности и любые осадки",
     "price": 40000
   },
   {
     "id": 6,
-    "image": "/products/nastan.jpg",
+    "image": "products/nastan.jpg",
     "title": "Шкаф Nastan",
     "description": "Мебель может быть оснащена разнообразными системами подсветки.",
     "price": 80000

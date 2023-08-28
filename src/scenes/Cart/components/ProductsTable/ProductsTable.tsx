@@ -21,7 +21,7 @@ export const ProductsTable = () => {
             <td>
               <div className={styles.container}>
                 <div className={styles.imageWrapper}>
-                  <img className={styles.image} src={`${image}`} />
+                  <img className={styles.image} src={`${process.env.PUBLIC_URL}/${image}`} alt={title} />
                 </div>
                 <div className={styles.content}>
                   <h2 className={styles.title}>{title}</h2>
