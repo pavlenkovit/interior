@@ -1,4 +1,4 @@
-import type {FC, MouseEventHandler, PropsWithChildren} from 'react';
+import type { FC, MouseEventHandler, PropsWithChildren } from 'react';
 import styles from './Button.module.scss';
 
 type ButtonProps = PropsWithChildren & {
