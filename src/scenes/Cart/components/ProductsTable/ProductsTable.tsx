@@ -2,6 +2,7 @@ import styles from './ProductsTable.module.scss';
 import { useAppSelector, useAppDispatch } from '../../../../app/hooks';
 import { changeProductCount, deleteProduct } from '../../../../features/cart/cartSlice';
 import { separateThousands } from '../../../../utils/separateThousands';
+import {Counter} from '../../../../components/Counter';
 
 export const ProductsTable = () => {
   const products = useAppSelector(state => state.cart.products);
@@ -43,14 +44,10 @@ export const ProductsTable = () => {
               </div>
             </td>
             <td>
-              <input
-                className={styles.inputNumber}
-                type="number"
-                value={count}
-                onChange={e => {
-                  dispatch(changeProductCount({ id, count: +e.target.value }));
-                }}
-              />
+              <Counter max={99} value={count}
+                       onChange={value => {
+                         dispatch(changeProductCount({ id, count: value }));
+                       }} />
             </td>
           </tr>
         );

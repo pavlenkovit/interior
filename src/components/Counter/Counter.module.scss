@@ -1,0 +1,52 @@
+.container {
+  background: #F7F6F6;
+  border-radius: 6px;
+  display: flex;
+  width: 71px;
+  overflow: hidden;
+}
+
+.input {
+  flex: 1 1 auto;
+  width: 1%;
+  display: block;
+  margin: 0;
+  border: none;
+  padding: 13px 0;
+  text-align: center;
+  background-color: #F7F6F6;
+  font-weight: bold;
+  &:focus {
+    outline: 0;
+  }
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.buttons {
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  cursor: pointer;
+  user-select: none;
+  flex: 1;
+  display: flex;
+  justify-content: left;
+}
+
+.up {
+  align-items: flex-end;
+}
+
+.down {
+  align-items: flex-start;
+}

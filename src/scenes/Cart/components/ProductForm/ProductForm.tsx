@@ -18,7 +18,7 @@ export const ProductForm = () => {
         <div className={styles.price}>
           Итого: <b>{separateThousands(price)} руб.</b>
         </div>
-        <Button className={styles.button}>Оформить заказ</Button>
+        <Button className={styles.button} onClick={(e) => e.preventDefault()}>Оформить заказ</Button>
       </form>
     </div>
   );

@@ -1,10 +1,10 @@
-import type { FC, PropsWithChildren } from 'react';
+import type {FC, MouseEventHandler, PropsWithChildren} from 'react';
 import styles from './Button.module.scss';
 
 type ButtonProps = PropsWithChildren & {
   type?: 'light' | 'dark';
   className?: string;
-  onClick?: () => void;
+  onClick?: MouseEventHandler<HTMLButtonElement>;
 };
 
 export const Button: FC<ButtonProps> = ({ children, type = 'light', className, onClick }) => {
